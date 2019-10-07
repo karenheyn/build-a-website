@@ -1,0 +1,207 @@
+body{
+	color:white;
+	background-image: url('./images/IMG_0312.jpeg');
+	background-size: cover;
+	background-repeat: repeat;
+}
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 35px 0 0 0 auto;
+	padding: 30px 10px 0px 10px;
+	margin-bottom: 0;
+	height: 40px;
+}
+
+ul {
+	min-width: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+li {
+	height:20px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	transition: all 300ms ease;
+}
+a:hover {
+	text-decoration: underline;
+
+}
+main {
+	min-width: 100vh;
+	min-height: 90vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.center {
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.web {
+	text-align: left;
+	transform: rotate(-90deg);
+	position: relative;
+	top: 200px;
+	font-size: 10px;
+}
+.left { 
+	padding-top: 120px;
+}
+.icon {
+	display: block; 
+	padding-bottom: 20px;
+	width: 20px;
+	height: 20px;
+	margin-left: 75px;
+}
+.line {
+	height:60px;
+	width: 60px;
+	border-right: 1px solid white;
+	position: relative;
+	left: 25px;
+}
+.center{
+	min-width: 60%;
+}
+.child1 {
+	margin-top: 30%;
+	font-size: 50px;
+	padding-bottom: 10px;
+}
+.search {
+	display: flex;	
+	flex-direction: row;
+	height: 41px;
+	justify-content: space-around;
+}
+.icon2 {
+	height: 20px;
+	padding: 0 10px;
+}
+#line2 {
+	border-right: 1px solid white;
+}
+.topleft {
+	display: flex;
+}
+.logo {
+	height: 60px;
+	margin-top: -15px;
+
+}
+.name {
+	height: 50px;
+	text-align: left;
+	display: block;
+	font-size:15px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	padding-left: 10px;
+	font-weight: 700;
+	/*margin-top: 12px;*/
+}
+hr {
+	margin: 0 20%;
+}
+.bottom {
+	margin-top: 30%;
+}
+button {
+	margin-top: 20px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 10px rgba(255,255,255,.5) ;
+	border: 3px solid silver;
+	transform: rotate(-90deg);
+	font-size:16px;
+	color: grey;
+}
+.button:active {
+	box-shadow: 0px 0px 0px 10px rgba(255,255,255,.1);
+}
+.links {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 300;
+}
+@media only screen and (max-width: 700px){
+	.nav {
+		display: inline-block;
+		height: 400px;
+
+	}
+	hr {
+		display: none;
+	}
+	.links {
+		font-size:40px;
+		padding-top: 40px;
+		text-align: center;
+		display: block;
+		flex-direction: column;
+		font-weight: 300px;
+		margin-top: 100px
+	}
+	.list {
+		margin: 40px;
+	}
+		.search {
+		display: none;
+	}
+	.topleft {
+		height: 100px;
+	}
+	.logo {
+		height: 200px;
+		margin-bottom: -20px;
+	}
+	.name {
+		font-size: 65px;
+		margin-top: 15px;
+	}
+	.center {
+		margin-top: 200px;
+	}
+	.line {
+		display: none;
+	}
+	.left {
+		display:inline-flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.icon {
+		height: 50px;
+		width: 50px;
+		padding: 30px;
+	}
+	main {
+		flex-direction: column-reverse;
+
+	}
+	.web {
+		display: none;
+	}
+	.center {
+		font-size: 50px;
+	}
+	.child1 {
+		margin: 70px;
+	}
+	button {
+		margin-top: 70px;
+		margin-left: 65px;
+		width:65px;
+		height:65px;
+		font-size: 30px;
+	}
+}
