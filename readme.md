@@ -13,4 +13,7 @@ This is the first website I deployed.
 ![MYSITE](screen.png)
 
 This website is one of the first websites I ever built. 
-My plan is to eventually add more features and make it more function
+My plan is to eventually add more features and make it more functional
+
+
+Github Repository: https://github.com/karenheyn/build-a-website
