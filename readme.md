@@ -5,9 +5,9 @@ Front-End Business Website
 
 This is the first website I deployed. 
 
-*This is a responsive website built for mobile and PC. 
-*this website was built in HTML and CSS and features CSS animation
-*The project's layout was achieved using flexbox.
+* This is a responsive website built for mobile and PC. 
+* this website was built in HTML and CSS and features CSS animation
+* The project's layout was achieved using flexbox.
 
 
 ![MYSITE](screen.png)
